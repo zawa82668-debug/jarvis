@@ -1,0 +1,21 @@
+﻿# секреты и локальные данные
+.groq-key.txt
+mic.txt
+reminders.json
+*.wav
+*.log
+
+# виртуальное окружение и зависимости
+.venv/
+libs/
+wheels/
+__pycache__/
+*.pyc
+
+# скачанные модели (не коммитим, качаются скриптом)
+models/
+*.zip
+
+# мусор
+.tmp/
+_smoke*.txt
