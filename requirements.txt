@@ -1,0 +1,3 @@
+﻿requests>=2.32
+sounddevice>=0.5
+vosk>=0.3.45
