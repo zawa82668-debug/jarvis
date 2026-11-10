@@ -1,0 +1,293 @@
+﻿{
+    "apps":  {
+                 "хром":  "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+                 "браузер":  "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+                 "chrome":  "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+                 "стим":  "C:\\Program Files (x86)\\Steam\\steam.exe",
+                 "steam":  "C:\\Program Files (x86)\\Steam\\steam.exe",
+                 "дед бай дейлайт":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Dead by Daylight\\DeadByDaylight\\Binaries\\Win64\\DeadByDaylight-Win64-Shipping.exe",
+                 "дбд":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Dead by Daylight\\DeadByDaylight\\Binaries\\Win64\\DeadByDaylight-Win64-Shipping.exe",
+                 "блокнот":  "notepad.exe",
+                 "калькулятор":  "calc.exe",
+                 "проводник":  "explorer.exe",
+                 "панель управления":  "control.exe",
+                 "диспетчер задач":  "taskmgr.exe"
+             },
+    "sites":  {
+                  "ютуб":  "https://www.youtube.com",
+                  "youtube":  "https://www.youtube.com",
+                  "вконтакте":  "https://vk.com",
+                  "вк":  "https://vk.com",
+                  "телеграм":  "https://web.telegram.org",
+                  "гитхаб":  "https://github.com",
+                  "github":  "https://github.com",
+                  "дипсик":  "https://chat.deepseek.com",
+                  "почта":  "https://mail.google.com",
+                  "яндекс":  "https://ya.ru",
+                  "стим":  "https://store.steampowered.com",
+                  "твич":  "https://www.twitch.tv"
+              },
+    "commands":  [
+                     {
+                         "phrases":  [
+                                         "открой хром",
+                                         "запусти хром",
+                                         "открой браузер",
+                                         "запусти браузер"
+                                     ],
+                         "action":  "open_app",
+                         "target":  "хром",
+                         "reply":  "Открываю браузер."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой стим",
+                                         "запусти стим"
+                                     ],
+                         "action":  "open_app",
+                         "target":  "стим",
+                         "reply":  "Открываю Steam."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой дискорд",
+                                         "запусти дискорд"
+                                     ],
+                         "action":  "open_app",
+                         "target":  "дискорд",
+                         "reply":  "Открываю Discord."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой спотифай",
+                                         "запусти спотифай"
+                                     ],
+                         "action":  "open_app",
+                         "target":  "спотифай",
+                         "reply":  "Открываю Spotify."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой код",
+                                         "открой вс код",
+                                         "запусти вс код"
+                                     ],
+                         "action":  "open_app",
+                         "target":  "код",
+                         "reply":  "Открываю редактор."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой блокнот",
+                                         "запусти блокнот"
+                                     ],
+                         "action":  "open_app",
+                         "target":  "блокнот",
+                         "reply":  "Открываю блокнот."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой калькулятор",
+                                         "запусти калькулятор"
+                                     ],
+                         "action":  "open_app",
+                         "target":  "калькулятор",
+                         "reply":  "Открываю калькулятор."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой проводник",
+                                         "открой мои файлы"
+                                     ],
+                         "action":  "open_app",
+                         "target":  "проводник",
+                         "reply":  "Открываю проводник."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой диспетчер задач"
+                                     ],
+                         "action":  "open_app",
+                         "target":  "диспетчер задач",
+                         "reply":  "Открываю диспетчер задач."
+                     },
+                     {
+                         "phrases":  [
+                                         "запусти дбд",
+                                         "запусти дед бай дейлайт",
+                                         "открой дбд"
+                                     ],
+                         "action":  "open_app",
+                         "target":  "дбд",
+                         "reply":  "Запускаю Dead by Daylight."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой ютуб",
+                                         "запусти ютуб"
+                                     ],
+                         "action":  "open_site",
+                         "target":  "ютуб",
+                         "reply":  "Открываю YouTube."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой вк",
+                                         "открой вконтакте"
+                                     ],
+                         "action":  "open_site",
+                         "target":  "вк",
+                         "reply":  "Открываю ВК."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой телеграм"
+                                     ],
+                         "action":  "open_site",
+                         "target":  "телеграм",
+                         "reply":  "Открываю телеграм веб."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой гитхаб"
+                                     ],
+                         "action":  "open_site",
+                         "target":  "гитхаб",
+                         "reply":  "Открываю GitHub."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой дипсик"
+                                     ],
+                         "action":  "open_site",
+                         "target":  "дипсик",
+                         "reply":  "Открываю ДипСик."
+                     },
+                     {
+                         "phrases":  [
+                                         "открой почту"
+                                     ],
+                         "action":  "open_site",
+                         "target":  "почта",
+                         "reply":  "Открываю почту."
+                     },
+                     {
+                         "phrases":  [
+                                         "найди в интернете",
+                                         "погугли",
+                                         "поищи",
+                                         "загугли"
+                                     ],
+                         "action":  "search_web",
+                         "reply":  "Ищу."
+                     },
+                     {
+                         "phrases":  [
+                                         "громче",
+                                         "сделай громче",
+                                         "прибавь звук"
+                                     ],
+                         "action":  "volume_up",
+                         "times":  4,
+                         "reply":  "Прибавляю."
+                     },
+                     {
+                         "phrases":  [
+                                         "тише",
+                                         "сделай тише",
+                                         "убавь звук"
+                                     ],
+                         "action":  "volume_down",
+                         "times":  4,
+                         "reply":  "Убавляю."
+                     },
+                     {
+                         "phrases":  [
+                                         "выключи звук",
+                                         "без звука",
+                                         "мут"
+                                     ],
+                         "action":  "volume_mute",
+                         "reply":  "Звук выключен."
+                     },
+                     {
+                         "phrases":  [
+                                         "пауза",
+                                         "поставь на паузу",
+                                         "продолжи",
+                                         "включи музыку",
+                                         "играй"
+                                     ],
+                         "action":  "media_play_pause",
+                         "reply":  "Готово."
+                     },
+                     {
+                         "phrases":  [
+                                         "следующий трек",
+                                         "переключи трек",
+                                         "следующая песня"
+                                     ],
+                         "action":  "media_next",
+                         "reply":  "Следующий."
+                     },
+                     {
+                         "phrases":  [
+                                         "предыдущий трек",
+                                         "предыдущая песня"
+                                     ],
+                         "action":  "media_prev",
+                         "reply":  "Предыдущий."
+                     },
+                     {
+                         "phrases":  [
+                                         "сделай скриншот",
+                                         "скриншот",
+                                         "снимок экрана"
+                                     ],
+                         "action":  "screenshot"
+                     },
+                     {
+                         "phrases":  [
+                                         "заблокируй компьютер",
+                                         "заблокируй пк"
+                                     ],
+                         "action":  "lock",
+                         "reply":  "Блокирую."
+                     },
+                     {
+                         "phrases":  [
+                                         "сколько времени",
+                                         "который час",
+                                         "скажи время"
+                                     ],
+                         "action":  "time"
+                     },
+                     {
+                         "phrases":  [
+                                         "какое сегодня число",
+                                         "какая дата",
+                                         "какое число"
+                                     ],
+                         "action":  "date"
+                     },
+                     {
+                         "phrases":  [
+                                         "выключи компьютер",
+                                         "выключи пк",
+                                         "завершение работы"
+                                     ],
+                         "action":  "shutdown",
+                         "reply":  "Выключаю компьютер через пять секунд."
+                     },
+                     {
+                         "phrases":  [
+                                         "стоп",
+                                         "хватит",
+                                         "отключись",
+                                         "выход"
+                                     ],
+                         "action":  "stop",
+                         "reply":  "Останавливаюсь. До связи."
+                     }
+                 ]
+}
